@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladda upp produkt</title>
+</head>
+
+<body>
+    <form action="uploadProduct.php" method="post" enctype="multipart/form-data">
+        <label for="pname" autofocus>Produktnamn:</label>
+        <input required type="text" id="pname" name="pname" placeholder="Skriv in produktnamn:"><br><br>
+        <label for="code">Kod:</label>
+        <input required type="text" id="code" name="code" placeholder="Skriv in produktkod:"><br><br>
+        <label for="code">Pris:</label>
+        <input required type="text" id="price" name="price" placeholder="Skriv in pris:"><br><br>
+        <input type="file" name="file">
+        <input type="submit" name="submit" value="Ladda upp">
+    </form>
+    <hr>
+</body>
+
+</html>
