@@ -6,4 +6,4 @@ This is a project or test that was part of a course about web development which 
 
 With this program, it is intended that users should be able to buy skinproducts online. The program displays a online store called: "Skin deluxe".
 
-*By Emmy Eriksson.
+*By Emmy Eriksson.*
